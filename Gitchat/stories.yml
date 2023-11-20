@@ -1,0 +1,96 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: G10X path 3
+  steps:
+  - intent: G10X
+  - action: utter_G10X
+
+- story: G10X location path 4
+  steps:
+  - intent: G10X location
+  - action: utter_G10X location
+  
+- story: G10X founded path 5
+  steps:
+  - intent:  G10X founded year
+  - action: utter_G10X founded year
+  
+- story: G10X dress code path 6
+  steps:
+  - intent:  G10X dress code
+  - action: utter_G10X dress code
+  
+- story:  G10X website path 7
+  steps:
+  - intent:  G10X website
+  - action: utter_G10X website 
+  
+- story:  G10X working days path 8 
+  steps:
+  - intent:  G10X working days
+  - action: utter_G10X working days 
+  
+- story:  G10X working hours path 9 
+  steps:
+  - intent:  G10X working hours
+  - action: utter_G10X working hours
+  
+- story:  G10X company size path 10 
+  steps:
+  - intent:  G10X company size
+  - action: utter_G10X company size
+  
+- story:  G10X founder chairman path 11
+  steps:
+  - intent:  G10X founder chairman
+  - action: utter_G10X founder chairman
+  
+- story:  G10X earned leave path 12
+  steps:
+  - intent:  G10X earned leave
+  - action: utter_G10X earned leave
+  
+- story:  G10X vision path 12
+  steps:
+  - intent:  G10X vision
+  - action: utter_G10X vision
+  
+- story:  G10X mission path 12
+  steps:
+  - intent: G10X mission
+  - action: utter_G10X mission
+  
+- story:  kochi location path 13
+  steps:
+  - intent: kochi location
+  - action: utter_kochi location
+  

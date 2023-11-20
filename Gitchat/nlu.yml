@@ -1,0 +1,170 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: G10X
+  examples: |
+    - About G10X
+    - G10X
+    - G10X details?
+    
+- intent: G10X location
+  examples: |
+    - where is g10x located?
+    - where G10X?
+    - What location is g10x?
+    - where is g10x situated?
+    
+- intent: G10X founded year
+  examples: |
+    - G10X founded
+    - when is G10X started?
+    - G10X established?
+    
+- intent: G10X dress code
+  examples: |
+    - What is the g10x dress code?
+    - G10X dress code policy
+    - G10X dress code 
+    
+- intent: G10X website
+  examples: |
+    - G10X website link
+    - G10X link
+    - G10X webpage
+    
+- intent: G10X working days
+  examples: |
+    - working days
+    - How many days need to work?
+    
+- intent: G10X working hours
+  examples: |
+    - How many working hours?
+    - How many hours need to work?
+    
+- intent: G10X company size
+  examples: |
+    - Company size?
+    - How many employees work at g10x?
+    
+- intent: G10X founder chairman
+  examples: |
+    - founder chairman
+    - Who is the founder chairman?
+    
+- intent: G10X earned leave 
+  examples: |
+    - earned leave count
+    - How many earned leaves are available for an employee?
+    - How many employees work at g10x?
+    
+- intent: G10X vision 
+  examples: |
+    - what is the vision of g10x company?
+    - vision
+    - g10x vision
+   
+- intent: G10X mission
+  examples: |
+    - what are the mission of g10x company?
+    - mission
+    - g10x mission
+   
+- intent: kochi location
+  examples: |
+    - Where is g10x company located in kochi?
+    - In which place in kochi g10x is located?
+    - kochi g10x place?
+    
+    
+
+    

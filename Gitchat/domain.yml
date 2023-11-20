@@ -1,0 +1,99 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - G10X
+  - G10X location
+  - G10X founded year
+  - G10X dress code
+  - G10X website
+  - G10X working days
+  - G10X working hours
+  - G10X company size
+  - G10X founder chairman
+  - G10X earned leave
+  - G10X vision
+  - G10X mission
+  - kochi location
+  
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_G10X:
+  - text: "G10X is a digital services, digital solutions and products company, offering clients a unique advantage in the era of digital transformation across strategy, consulting and technology services."
+
+  utter_G10X location:
+  - text: "The headquarters of G10X is located in Singapore with branches in CA US, London UK and Kerala India."
+  
+  utter_G10X founded year:
+  - text: "G10X was founded in the year 2018."
+  
+  utter_G10X dress code:
+  - text: "G10X follows formal office wear for men and women."
+  
+  utter_G10X website:
+  - text: "http://www.g10x.com"
+ 
+  utter_G10X working days:
+  - text: "G10X works five(5)days a week, from Monday through Friday. 
+           Saturday and Sunday are weekly days off. In  some situations,based on customer requirements and organizational needs,the working days  and timings may change,and employees are expected to adhere to them.
+           Due to customer demand or project demand,if any employee needs to work on the weekend or holidays, they shall adhere to it."
+
+  utter_G10X working hours:
+  - text: "The Office Hours/regular working hours are from 09:00 hours to 18:00 hours,i.e.,a total of 8 working hours a day,40 working hours a week. A 60-minutebreak for tea/coffee/snacks/lunch break is factored into the Office Hours and may be taken at the employee’s convenience,subject always to the requirements of the assignments such employees are engaged in."
+ 
+  utter_G10X company size:
+  - text: "Company size is around 201-500 employees."
+  
+  utter_G10X founder chairman:
+  - text: "G10X founder chairman is Joe Nalkara"
+  
+  utter_G10X earned leave:
+  - text: "Employees are eligible for Fourteen (14)days of Earned Leave(EL) per year or the pro rata equivalent during the first year of service."
+ 
+  utter_G10X vision:
+  - text: "To build an enduring company that delightsour customers,our employees call home and have a positive impact on planet."
+
+  utter_G10X mission:
+  - text: "1. Customer Focused –Execution.
+           2. People Centric –Governed by values, ethics, and culture.
+           3. Be the Best –By working with the best.
+           4. Employee wealth generation –So that they can give back to society."
+  
+  utter_kochi location:
+  - text: "World Trade Center,Infopark Campus,Infopark,Kakkanad,Kerala."
+
+  action_default_fallback:
+  - text: "I'm sorry, I can't provide an answer to that question."
+
+actions:
+  - action_default_fallback
+
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
